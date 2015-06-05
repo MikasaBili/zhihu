@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background: #0078d8;
+	/*width: 1006px;*/
+	height: 361px;
+}
+.center{
+	width: 741px;
+	margin: 0 auto;
+
+}
+.center h1{
+	height: 122px;
+	width: 340px;
+	background: url(./images/logo.png) no-repeat;
+	position: absolute;
+	top: 119px;
+	text-indent: -9999px;
+}
+.from{
+	width: 202px;
+	height: 318px;
+	background: #0078d8;
+	font-size: 14px;
+	float: right;
+	padding-top:43px;
+}
+.from .zhuc{
+	color: #fff;
+	width: 202px;
+	height: 41px;
+	/*line-height: 25px;*/
+}
+.zhuc-name,.zhuc-gmail,.zhuc-pass,.zhuc-ipt{
+	height: 53px;
+	width: 202px;
+	/*outline: 1px solid red;*/
+}
+.zhuc-name input{
+	width: 70px;
+	height: 17px;
+	
+}
+.zhuc-name .last{
+	margin-left: 10px;
+}
+.from input{
+	border-radius: 5px;
+	border:1px solid #fff;
+	color: #ccc;
+	padding: 8px 10px;
+	box-shadow: 0 1px 2px inset,0 1px 0;
+}
+.zhuc-gmail input{
+	width: 180px;
+	height: 17px;
+}
+.zhuc-pass input{
+	width: 180px;
+	height: 17px;
+}
+.zhuc-ipt a{
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	line-height: 35px;
+	background: #9cf;
+	display: block;
+	color: #fff;
+	border-radius: 5px;
+}
+.weib{
+	height: 22px;
+	line-height: 22px;
+	margin-left:8px;
+	color: #fff;
+	font-size: 15px;
+}
+/*.weib span{
+	float: left;
+}*/
+.weib a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: -4px;
+}
+.weib .weibo{
+	background: url(./images/icon.png) no-repeat;
+	background-position: 0 0;
+}
+.weib .qq{
+	background: url(./images/icon.png) no-repeat;
+	background-position: -32px 0;
+	m
+}
