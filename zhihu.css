@@ -11,7 +11,6 @@ a{
 }
 .main{
 	background: #0078d8;
-	/*width: 1006px;*/
 	height: 361px;
 }
 .center{
@@ -39,12 +38,10 @@ a{
 	color: #fff;
 	width: 202px;
 	height: 41px;
-	/*line-height: 25px;*/
 }
 .zhuc-name,.zhuc-gmail,.zhuc-pass,.zhuc-ipt{
 	height: 53px;
 	width: 202px;
-	/*outline: 1px solid red;*/
 }
 .zhuc-name input{
 	width: 70px;
@@ -86,9 +83,6 @@ a{
 	color: #fff;
 	font-size: 15px;
 }
-/*.weib span{
-	float: left;
-}*/
 .weib a{
 	display: inline-block;
 	width: 20px;
@@ -107,26 +101,36 @@ a{
 	width: 743px;
 	height: 375px;
 	margin: 49px auto 0;
-	/*outline: 1px solid yellow;*/
 }
 .con-left{
 	width: 210px;
 	height: 375px;
 	float: left;
-	/*outline: 1px solid pink;*/
+}
+.con-left a:hover img{
+	transform:scale(1.2,1.2);
+	border-radius: 50%;
+    transition:all 1s;
+
+}
+.con-left a:hover{
+	border:none;
+	margin:0 7px; 
+	opacity: 0.8;
 }
 .con-left img{
-	height: 62px;
-	width: 62px;
-	border-radius: 33px;
+	height: 52px;
+	width: 52px;
+	border-radius: 50%;
+	transition:all 1s;
 }
 .con-left a{
 	display: inline-block;
-	height: 62px;
-	width: 62px;
-	/*outline: 1px solid red;*/
-	border-radius: 32px;
-	/*border:1px solid #ccc;*/
+	height: 52px;
+	width: 52px;
+	border-radius: 50%;
+	border:6px solid #fff;
+	margin: 1px;
 }
 .con-right{
 	width: 440px;
@@ -202,14 +206,11 @@ a{
 }
 .footer{
 	height: 100px;
-	/*background: red;*/
 	margin-top: 50px;
-	/*border:1px solid red;*/
 }
 .foot-center{
 	width: 742px;
 	height: 38px;
-	/*outline: 1px solid yellow;*/
 	margin:0 auto;
 }
 .foot-left{
@@ -233,7 +234,43 @@ a{
 .foot-right{
 	width: 384px;
 	height: 38px;
-	outline: 1px solid red;
-	/*margin-left: 34px;*/
 	float: right;
+}
+.foot-right div{
+	display: block;
+	height: 37px;
+	background: #cad5de;
+	border-radius: 5px;
+	float: left;
+	color: #fff;
+}
+.apple{
+	width: 153px;
+}
+.android{
+	width: 183px;
+	margin-left: 33px;
+}
+.foot-right a{
+ color: #fff;
+line-height: 37px;
+display: block;
+height: 37px;
+float: left;
+}
+.foot-right .app-a{
+	display: block;
+	width: 20px;
+	height: 26px;
+	background: url(./images/app.png) no-repeat;
+	background-position: 0 0;
+	margin: 4px 5px 6px 7px;
+}
+.foot-right .app-g{
+	display: block;
+	width: 23px;
+	height: 26px;
+	background: url(./images/app.png) no-repeat;
+	background-position: -24px 0;
+	margin: 4px 5px 6px 8px;
 }
